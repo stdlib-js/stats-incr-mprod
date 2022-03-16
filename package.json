@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-mprod",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Compute a moving product incrementally.",
   "license": "Apache-2.0",
   "author": {
