@@ -70,7 +70,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.incrmprod;
+})();
 })();
 </script>
 ```
@@ -194,6 +196,7 @@ p = accumulator( z );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mprod@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var accumulator;
 var v;
@@ -209,6 +212,7 @@ for ( i = 0; i < 100; i++ ) {
 }
 console.log( accumulator() );
 
+})();
 })();
 </script>
 </body>
@@ -305,9 +309,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/msum]: https://github.com/stdlib-js/stats-incr-msum/tree/umd
+[@stdlib/stats/incr/msum]: https://github.com/stdlib-js/stats-incr-msum/tree/umd/tree/umd
 
-[@stdlib/stats/incr/prod]: https://github.com/stdlib-js/stats-incr-prod/tree/umd
+[@stdlib/stats/incr/prod]: https://github.com/stdlib-js/stats-incr-prod/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
