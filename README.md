@@ -41,14 +41,30 @@ For a window of size `W`, the moving product is defined as
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-mprod
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import incrmprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mprod@esm/index.mjs';
+var incrmprod = require( '@stdlib/stats-incr-mprod' );
 ```
 
 #### incrmprod( window )
@@ -162,14 +178,9 @@ p = accumulator( z );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mprod@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var incrmprod = require( '@stdlib/stats-incr-mprod' );
 
 var accumulator;
 var v;
@@ -184,10 +195,6 @@ for ( i = 0; i < 100; i++ ) {
     accumulator( v );
 }
 console.log( accumulator() );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -202,8 +209,8 @@ console.log( accumulator() );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/incr/msum`][@stdlib/stats/incr/msum]</span><span class="delimiter">: </span><span class="description">compute a moving sum incrementally.</span>
--   <span class="package-name">[`@stdlib/stats/incr/prod`][@stdlib/stats/incr/prod]</span><span class="delimiter">: </span><span class="description">compute a product incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/msum`][@stdlib/stats/incr/msum]</span><span class="delimiter">: </span><span class="description">compute a moving sum incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/prod`][@stdlib/stats/incr/prod]</span><span class="delimiter">: </span><span class="description">compute a product incrementally.</span>
 
 </section>
 
@@ -218,7 +225,7 @@ console.log( accumulator() );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -280,9 +287,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/msum]: https://github.com/stdlib-js/stats-incr-msum/tree/esm
+[@stdlib/stats/incr/msum]: https://github.com/stdlib-js/stats-incr-msum
 
-[@stdlib/stats/incr/prod]: https://github.com/stdlib-js/stats-incr-prod/tree/esm
+[@stdlib/stats/incr/prod]: https://github.com/stdlib-js/stats-incr-prod
 
 <!-- </related-links> -->
 
