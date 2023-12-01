@@ -44,10 +44,10 @@
     "@stdlib/math-base-special-frexp": "^0.1.0",
     "@stdlib/math-base-special-ldexp": "^0.1.0",
     "@stdlib/string-format": "^0.1.1",
-    "@stdlib/types": "^0.1.0"
+    "@stdlib/types": "^0.2.0"
   },
   "devDependencies": {
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/constants-float64-eps": "^0.1.1",
     "@stdlib/constants-float64-ninf": "^0.1.1",
     "@stdlib/constants-float64-pinf": "^0.1.1",
