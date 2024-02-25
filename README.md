@@ -63,7 +63,7 @@ For a window of size `W`, the moving product is defined as
 ## Usage
 
 ```javascript
-import incrmprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mprod@esm/index.mjs';
+import incrmprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mprod@v0.2.1-esm/index.mjs';
 ```
 
 #### incrmprod( window )
@@ -184,7 +184,7 @@ p = accumulator( z );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mprod@esm/index.mjs';
+import incrmprod from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mprod@v0.2.1-esm/index.mjs';
 
 var accumulator;
 var v;
