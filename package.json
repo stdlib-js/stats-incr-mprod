@@ -44,7 +44,7 @@
     "@stdlib/math-base-special-frexp": "^0.2.3",
     "@stdlib/math-base-special-ldexp": "^0.2.3",
     "@stdlib/string-format": "^0.2.2",
-    "@stdlib/types": "^0.3.2",
+    "@stdlib/types": "^0.4.1",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
